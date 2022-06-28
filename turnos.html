@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- HEAD CONTIENE ETIQUETAS DE CONFIGURACION -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    
+    <!-- Conexión al servidor donde estan los estilos CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous">
+    
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Header>
+        <nav class="navbar navbar-expand-lg bg-martin">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Electromiografías Mendoza</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" href="#">Servicios</a>
+                  <a class="nav-link active" aria-current="page" href="turnos.html">Turnos</a>
+                  <a class="nav-link ">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </Header>
+    <main class="cuerpos">
+        <section class="galeria">
+            <h3 class="titulo">Complete el Formulario</h3>
+        </section>
+        <section class="form-register">
+            <h4>Formulario de Registro</h4>    
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+            <input class="controls" type="text" name="fecha de nacimiento" id="nacimiento" placeholder="Ingrese su Fecha de Nacimiento">
+            <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su Teléfono">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electrónico">
+            <input class="botons" type="submit" value="Pedir Turno">
+        </section>
+        <section class="cancelacion">
+            <div> 
+                <h3>Cancelaciones</h3>
+                <p> Las cancelaciones deben ser notificadas 24 hs previas al estudio.</p>
+            </div>
+        </section> 
+    </main>
+    
+    
+    <footer>
+        <ul>
+            <li>
+                <a href="https://facebook.com" class="parrafo-azul"> Electromiografías Mendoza
+                    <img src="./img/logoface.jpg" alt="facebook logo" class="facelogo">
+                </a>
+            </li>
+        </ul>        
+    </footer>
+</body>
+</html>

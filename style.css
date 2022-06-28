@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-martin {
+    background-color: rgb(83, 119, 154);    
+}
+
+
+.pt-5 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+    
+}
+    /*  width: 50%;
+    /*
+    height: 60vw;
+    padding: 10;
+    border-radius: 30px;
+    box-shadow: 7px 13px 37px #000;*/
+
+
+.carousel {
+    width: 50%;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+footer {
+    background-color: rgb(83, 119, 154);
+    height: 10vw;
+}
+.enlace-azul, .parrafo-azul {
+    color:rgb(19, 10, 27);
+    text-decoration: none;
+    list-style: none;
+}
+
+.facelogo {
+    width: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+/*   turnos  */
+.turnos {
+    padding-top: 3%;
+    color:rgb(67, 18, 112);
+    
+}
+
+.form-register {
+    width: 400px;
+    background-color: #445d76;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-family: "calibri";
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: "calibri";
+    font-size: 15px;
+}
+
+.form-register .botons {
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgb(10, 99, 158);
+    font-family: "calibri";
+    font-size: 100%;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.cancelacion {
+    font-family: "calibri";
+    margin-top: 40px;
+
+}
+
+
+
